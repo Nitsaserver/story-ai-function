@@ -11,6 +11,7 @@ from google.cloud.firestore_v1._helpers import DatetimeWithNanoseconds
 
 
 
+
 # --- Configuration ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
